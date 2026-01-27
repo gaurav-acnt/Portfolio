@@ -11,7 +11,7 @@ db.connect();
 const PORT = process.env.PORT || 5000
 
 const corsOptions = {
-  origin: ["http://localhost:5173"],
+  origin: ["http://localhost:5173","https://my-portfolio-uu.netlify.app/"],
   credentials: true,
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
   allowedHeaders: ["Content-Type", "Authorization"],
